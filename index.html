@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chhaya Blinds & Tracks – Blinds and motorized curtain installation across India</title>
+<meta name="description" content="Made-to-measure blinds and motorized curtain tracks, installed in homes, offices and hotels across India. See our work and get a free site visit.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f6f8;--surface:#fff;--ink:#14213d;--muted:#51607a;--line:#d5dde5;--sun:#f2b33d;--teal:#1f6f78;--teal-ink:#fff;--sky1:#bfe3f2;--sky2:#fdf1cf;--fabric:#2f3e5c;--fabric2:#3d4f74;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1626;--surface:#17213a;--ink:#eef2f8;--muted:#a3b0c8;--line:#2a3856;--sun:#f2b33d;--teal:#5fc0c9;--teal-ink:#0f1626;--sky1:#27466b;--sky2:#6b5a3a;--fabric:#c9d3e6;--fabric2:#aebbd3;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1626;--surface:#17213a;--ink:#eef2f8;--muted:#a3b0c8;--line:#2a3856;--sun:#f2b33d;--teal:#5fc0c9;--teal-ink:#0f1626;--sky1:#27466b;--sky2:#6b5a3a;--fabric:#c9d3e6;--fabric2:#aebbd3;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Figtree,system-ui,sans-serif}
+h1,h2,h3{font-family:'Bricolage Grotesque',Georgia,sans-serif;line-height:1.1;margin:0 0 .5em;letter-spacing:-.01em}
+h1{font-size:clamp(2.3rem,6vw,4.2rem);font-weight:700}h2{font-size:clamp(1.7rem,3.6vw,2.5rem);font-weight:700}h3{font-size:1.2rem;font-weight:500}
+p{margin:0 0 1em;max-width:62ch}a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}section{padding:72px 0}
+.btn{display:inline-block;background:var(--teal);color:var(--teal-ink);border:0;border-radius:8px;padding:13px 22px;font:600 1rem Figtree,sans-serif;text-decoration:none;cursor:pointer}
+.btn.alt{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font:700 1.25rem 'Bricolage Grotesque',sans-serif;text-decoration:none}
+nav a{margin-left:18px;text-decoration:none;font-weight:500;color:var(--muted)}nav a:hover{color:var(--ink)}
+@media(max-width:700px){nav a.h{display:none}}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;padding:56px 0}
+@media(max-width:860px){.hero{grid-template-columns:1fr}}
+.lead{font-size:1.15rem;color:var(--muted)}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.demo{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px}
+.win{position:relative;aspect-ratio:4/5;border-radius:6px;overflow:hidden;border:8px solid var(--ink);background:linear-gradient(var(--sky1),var(--sky2) 85%)}
+.win .sun{position:absolute;right:18%;top:14%;width:18%;aspect-ratio:1;border-radius:50%;background:var(--sun)}
+.win .hill{position:absolute;left:-10%;right:-10%;bottom:-8%;height:30%;border-radius:50% 50% 0 0;background:var(--teal);opacity:.7}
+.blind{position:absolute;left:0;right:0;top:0;height:0%;background:repeating-linear-gradient(var(--fabric) 0 14px,var(--fabric2) 14px 18px);border-bottom:6px solid var(--ink);transition:height .15s linear}
+.track{position:absolute;left:0;right:0;top:0;height:7px;background:var(--ink);z-index:2}
+.cl,.cr{position:absolute;top:7px;bottom:0;width:0%;background:repeating-linear-gradient(90deg,var(--fabric) 0 16px,var(--fabric2) 16px 24px);transition:width .15s linear}
+.cl{left:0}.cr{right:0}
+.ctrl{display:flex;gap:8px;margin:14px 0 6px;flex-wrap:wrap}
+.ctrl button{flex:1;min-width:130px;padding:9px;border-radius:8px;border:1.5px solid var(--line);background:transparent;color:var(--ink);font:500 .95rem Figtree,sans-serif;cursor:pointer}
+.ctrl button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.demo label{display:flex;justify-content:space-between;font-weight:500;font-size:.95rem}
+input[type=range]{width:100%;accent-color:var(--teal);margin:6px 0}
+.cap{font-size:.9rem;color:var(--muted);margin:6px 0 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px}
+.card p{color:var(--muted);margin:0;font-size:.97rem}
+.card.big{border-left:6px solid var(--sun)}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px}
+.filters button{padding:8px 16px;border-radius:99px;border:1.5px solid var(--line);background:transparent;color:var(--ink);font:500 .95rem Figtree,sans-serif;cursor:pointer}
+.filters button[aria-pressed=true]{background:var(--teal);color:var(--teal-ink);border-color:var(--teal)}
+.proj{padding:0;overflow:hidden}.proj svg{display:block;width:100%;height:auto}.proj div{padding:16px 20px 20px}.proj h3{margin:0 0 4px}.proj span{color:var(--muted);font-size:.92rem}
+.band{background:var(--surface);border-block:1px solid var(--line)}
+.cities{display:flex;flex-wrap:wrap;gap:10px;padding:0;list-style:none;margin:0 0 16px}
+.cities li{padding:8px 16px;border:1.5px solid var(--line);border-radius:99px;background:var(--bg);font-weight:500}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px;padding:0;list-style:none}
+.steps li{counter-increment:s;border-top:4px solid var(--teal);padding-top:12px}
+.steps li::before{content:counter(s);font:700 2rem 'Bricolage Grotesque',sans-serif;color:var(--teal)}
+details{border-bottom:1px solid var(--line);padding:14px 0;max-width:760px}summary{cursor:pointer;font-weight:600}details p{margin:10px 0 0;color:var(--muted)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px}
+@media(max-width:640px){form{grid-template-columns:1fr}}
+form label{display:flex;flex-direction:column;gap:6px;font-weight:500;font-size:.95rem}.full{grid-column:1/-1}
+input,select,textarea{font:400 1rem Figtree,sans-serif;padding:11px;border-radius:8px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink)}
+footer{padding:36px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.93rem}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="logo" href="#top">Chhaya Blinds &amp; Tracks</a>
+<nav><a class="h" href="#products">Products</a><a class="h" href="#work">Our work</a><a class="h" href="#cities">Cities</a><a class="btn" style="padding:8px 16px;margin-left:18px;color:var(--teal-ink)" href="#quote">Free site visit</a></nav></div></header>
+
+<main id="top">
+<div class="wrap hero">
+<div>
+<h1>Blinds and curtains that open at a tap</h1>
+<p class="lead">We measure, supply and install made-to-measure blinds and motorized curtain tracks in homes, offices, clinics and hotels across India. One team from site visit to final fitting.</p>
+<div class="cta"><a class="btn" href="#quote">Book a free site visit</a><a class="btn alt" href="#work">See our work</a></div>
+</div>
+<div class="demo">
+<div class="win" id="win" role="img" aria-label="Window preview showing the blind or curtain closing">
+<div class="sun"></div><div class="hill"></div>
+<div class="track"></div><div class="blind" id="blind"></div><div class="cl" id="cl"></div><div class="cr" id="cr"></div>
+</div>
+<div class="ctrl"><button type="button" id="mB" aria-pressed="true">Zebra blind</button><button type="button" id="mC" aria-pressed="false">Motorized curtain</button></div>
+<label for="rng"><span>Light</span><span id="pct">0% closed</span></label>
+<input type="range" id="rng" min="0" max="100" value="0" aria-label="How closed the window covering is">
+<p class="cap">Try it. Real motors do this from a remote, a phone app or a voice command.</p>
+</div>
+</div>
+
+<section id="products" class="band"><div class="wrap">
+<h2>What we install</h2>
+<div class="grid">
+<div class="card big"><h3>Motorized curtain tracks</h3><p>Quiet whisper-glide motors for wide windows and sliding doors. Works with remote, app, Alexa and Google Home. Runs on a standard 230V socket or a hidden wire.</p></div>
+<div class="card"><h3>Roller blinds</h3><p>Clean, flat fabric in sunscreen or blackout. Good for offices, bedrooms and study rooms.</p></div>
+<div class="card"><h3>Zebra (day-night) blinds</h3><p>Alternating sheer and solid bands. Slide to let in soft light or full privacy.</p></div>
+<div class="card"><h3>Venetian and wooden blinds</h3><p>Aluminium, PVC and real wood slats. Tilt to aim light. Wipe clean in seconds.</p></div>
+<div class="card"><h3>Roman blinds</h3><p>Soft folds in cotton, linen and silk blends for living rooms and dining areas.</p></div>
+<div class="card"><h3>Blackout for bedrooms and theatres</h3><p>Side channels stop light leaking at the edges. Suitable for night-shift sleepers and home theatres.</p></div>
+</div></div></section>
+
+<section id="work"><div class="wrap">
+<h2>Recent projects</h2>
+<p>A sample of homes and workplaces we have fitted. Tap a filter to narrow the list.</p>
+<div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+<div class="grid" id="projects"></div>
+</div></section>
+
+<section id="cities" class="band"><div class="wrap">
+<h2>Installed across India</h2>
+<p>Our own fitting teams work in the cities below. For other towns, we ship the product and send a trained installer, or guide your local carpenter by video call.</p>
+<ul class="cities"><li>Delhi NCR</li><li>Mumbai</li><li>Pune</li><li>Bengaluru</li><li>Hyderabad</li><li>Chennai</li><li>Kolkata</li><li>Ahmedabad</li><li>Jaipur</li><li>Kochi</li><li>Chandigarh</li><li>Lucknow</li></ul>
+</div></section>
+
+<section><div class="wrap">
+<h2>How it works</h2>
+<ol class="steps">
+<li><h3>Free site visit</h3><p>We measure every window and check wall, ceiling and power points.</p></li>
+<li><h3>Fabric and quote</h3><p>You pick from sample books. You get a written quote the same day.</p></li>
+<li><h3>Made to measure</h3><p>Blinds are cut and motors are tested in our workshop. Usually 7 to 12 days.</p></li>
+<li><h3>Fitting and handover</h3><p>We install, program the remotes, and show you the app. One year service cover.</p></li>
+</ol></div></section>
+
+<section class="band"><div class="wrap">
+<h2>Questions we hear often</h2>
+<details><summary>Do motorized tracks need rewiring?</summary><p>Not usually. Most run from a nearby socket, and we can hide the cable in the pelmet. For new builds, we advise a power point at the curtain corner.</p></details>
+<details><summary>Will it work during a power cut?</summary><p>Yes. Every motor can be pulled by hand, and battery models keep working through outages.</p></details>
+<details><summary>Can you fit blinds in a rented flat?</summary><p>Yes. We offer no-drill and clip-on options that leave no marks when you move out.</p></details>
+<details><summary>Do you work outside the big cities?</summary><p>Yes. Send us your window sizes and photos. We dispatch across India and arrange a fitter or a video-guided install.</p></details>
+<details><summary>How much does it cost?</summary><p>It depends on window size, fabric and motor type. The site visit and quote are free, so you can compare before you decide.</p></details>
+</div></section>
+
+<section id="quote"><div class="wrap">
+<h2>Get your free quote</h2>
+<p>Tell us a little and we will message you on WhatsApp to fix a visit time.</p>
+<form id="qf">
+<label>Your name<input name="n" required autocomplete="name"></label>
+<label>City<select name="c" required><option value="">Choose city</option><option>Delhi NCR</option><option>Mumbai</option><option>Pune</option><option>Bengaluru</option><option>Hyderabad</option><option>Chennai</option><option>Kolkata</option><option>Ahmedabad</option><option>Jaipur</option><option>Kochi</option><option>Chandigarh</option><option>Lucknow</option><option>Other city or town</option></select></label>
+<label>What do you need?<select name="t"><option>Motorized curtain track</option><option>Roller blinds</option><option>Zebra blinds</option><option>Venetian or wooden blinds</option><option>Roman blinds</option><option>Not sure yet</option></select></label>
+<label>Number of windows<input name="w" type="number" min="1" max="200" value="3"></label>
+<label class="full">Anything else (optional)<textarea name="m" rows="3"></textarea></label>
+<div class="full"><button class="btn" type="submit">Send on WhatsApp</button></div>
+</form>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<p><strong>Chhaya Blinds &amp; Tracks</strong> · Mon–Sat, 9am–7pm IST · hello@example.com · +91 99999 99999</p>
+<p>Sample business details. Replace the name, phone number and email before going live.</p>
+</div></footer>
+
+<script>
+(function(){
+var WA='919999999999';
+var rng=document.getElementById('rng'),blind=document.getElementById('blind'),cl=document.getElementById('cl'),cr=document.getElementById('cr'),pct=document.getElementById('pct'),mB=document.getElementById('mB'),mC=document.getElementById('mC');
+var mode='b';
+function paint(){var v=+rng.value;pct.textContent=v+'% closed';
+ blind.style.height=mode==='b'?v+'%':'0%';
+ cl.style.width=cr.style.width=mode==='c'?(v/2)+'%':'0%';}
+function setMode(m){mode=m;mB.setAttribute('aria-pressed',m==='b');mC.setAttribute('aria-pressed',m==='c');paint();}
+mB.onclick=function(){setMode('b')};mC.onclick=function(){setMode('c')};rng.oninput=paint;paint();
+
+var P=[
+{t:'Motorized curtains',k:'curtain',c:'Bengaluru',d:'3BHK living room with a 14-foot sliding door'},
+{t:'Zebra blinds',k:'zebra',c:'Mumbai',d:'Sea-facing apartment, 9 windows'},
+{t:'Roller blinds',k:'roller',c:'Delhi NCR',d:'Open-plan office, 42 windows'},
+{t:'Wooden venetian',k:'venetian',c:'Jaipur',d:'Heritage-style home study'},
+{t:'Motorized curtains',k:'curtain',c:'Hyderabad',d:'Villa home theatre with blackout'},
+{t:'Zebra blinds',k:'zebra',c:'Kochi',d:'Boutique hotel, 24 rooms'}
+];
+var f=document.getElementById('filters'),g=document.getElementById('projects'),cur='All';
+var kinds=['All','curtain','zebra','roller','venetian'],names={All:'All',curtain:'Motorized curtains',zebra:'Zebra blinds',roller:'Roller blinds',venetian:'Venetian'};
+function svg(k){var s='<svg viewBox="0 0 320 200" aria-hidden="true"><rect width="320" height="200" fill="var(--sky1)"/><circle cx="250" cy="55" r="22" fill="var(--sun)"/><path d="M0 200V150Q80 110 160 150T320 140V200Z" fill="var(--teal)" opacity=".7"/>',i;
+ if(k==='curtain'){s+='<rect x="0" y="0" width="320" height="8" fill="var(--ink)"/>';for(i=0;i<9;i++){s+='<rect x="'+(i*10)+'" y="8" width="6" height="192" fill="var(--fabric'+(i%2?'2':'')+')"/><rect x="'+(320-i*10-6)+'" y="8" width="6" height="192" fill="var(--fabric'+(i%2?'2':'')+')"/>';}}
+ if(k==='zebra'){for(i=0;i<9;i++){s+='<rect x="0" y="'+(i*22)+'" width="320" height="12" fill="var(--fabric)"/><rect x="0" y="'+(i*22+12)+'" width="320" height="10" fill="var(--fabric2)" opacity=".35"/>';}}
+ if(k==='roller'){s+='<rect x="0" y="0" width="320" height="120" fill="var(--fabric)"/><rect x="0" y="0" width="320" height="8" fill="var(--ink)"/><rect x="140" y="120" width="40" height="6" rx="3" fill="var(--ink)"/>';}
+ if(k==='venetian'){for(i=0;i<14;i++){s+='<rect x="0" y="'+(i*14)+'" width="320" height="9" rx="2" fill="var(--fabric)"/>';}}
+ return s+'</svg>';}
+function render(){g.innerHTML='';P.filter(function(p){return cur==='All'||p.k===cur}).forEach(function(p){var d=document.createElement('article');d.className='card proj';d.innerHTML=svg(p.k)+'<div><h3>'+p.t+'</h3><span>'+p.c+'</span><p style="margin-top:8px">'+p.d+'</p></div>';g.appendChild(d);});}
+kinds.forEach(function(k){var b=document.createElement('button');b.type='button';b.textContent=names[k];b.setAttribute('aria-pressed',k===cur);b.onclick=function(){cur=k;[].forEach.call(f.children,function(x){x.setAttribute('aria-pressed',x===b)});render();};f.appendChild(b);});
+render();
+
+document.getElementById('qf').onsubmit=function(e){e.preventDefault();var d=new FormData(e.target);
+ var m='Hi Chhaya Blinds, I’d like a free site visit.\nName: '+d.get('n')+'\nCity: '+d.get('c')+'\nNeed: '+d.get('t')+'\nWindows: '+d.get('w')+(d.get('m')?'\nNotes: '+d.get('m'):'');
+ window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(m),'_blank');};
+})();
+</script>
+</body>
+</html>
